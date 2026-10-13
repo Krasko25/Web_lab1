@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Обратная связь">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О разработчике</a></li>
+            <li><a href="history.html">История</a></li>
+            <li><a href="infrastructure.html">Инфраструктура</a></li>
+            <li><a href="culture.html">Культура</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="contacts">
+    <section>
+        <h1>Обратная связь</h1>
+        <p>Заполните форму ниже, чтобы связаться с нами.</p>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Форма обратной связи</legend>
+
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required minlength="2" placeholder="Ваше имя">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="text@example.com">
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="5" required minlength="10"
+                          placeholder="Ваше сообщение"></textarea>
+
+                <button type="submit">Отправить</button>
+
+                <output name="result"></output>
+            </fieldset>
+        </form>
+    </section>
+
+    <aside>
+        <h3>Контакты</h3>
+        <p>Email: krasko.mikhail@yandex.ru</p>
+        <p>Телефон: +7 (949) 354-88-91</p>
+    </aside>
+</main>
+
+<footer>
+    <p>&copy; 2026 город Торез. Красько ИВТ-1</p>
+</footer>
+</body>
+</html>
