@@ -1,3 +1,5 @@
+//sass scss/styles.scss css/styles.css
+
 @use "sass:color";
 
 //Цвета
@@ -92,7 +94,7 @@ h1 {
   &::after {
     content: "";
     display: block;
-    width: 50px;
+    width: 150px;
     height: 3px;
     background: $accent-color;
     margin-top: 6px;
